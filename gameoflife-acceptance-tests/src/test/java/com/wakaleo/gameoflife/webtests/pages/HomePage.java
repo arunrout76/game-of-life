@@ -16,6 +16,6 @@ public class HomePage extends GameOfLifePage {
     }
 
     public void clickOnNewGameLink() {
-        newGameLink.click();
+        newGameLink.sendKeys("TestUser");
     }
 }
