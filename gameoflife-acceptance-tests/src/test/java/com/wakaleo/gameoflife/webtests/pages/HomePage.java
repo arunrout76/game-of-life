@@ -16,7 +16,7 @@ public class HomePage extends GameOfLifePage {
     }
 
     public void clickOnNewGameLink() {
-        System.out.println("Clicking on New Game Link");
         newGameLink.click();
+        newGameLink.FindBy("kumar");
     }
 }
